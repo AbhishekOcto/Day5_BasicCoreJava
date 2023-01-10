@@ -5,6 +5,7 @@ public class Quotient_Remainder_P6 {
 	/*Java Program to Compute Quotient and Remainder
 	 * 
 	 * */
+	//changes
 	
 	public static void main(String[] args) {
 		//taking user input..
@@ -12,7 +13,7 @@ public class Quotient_Remainder_P6 {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("Enter Dividend: ");
-		int Divident = sc.nextInt();
+		int Dividend = sc.nextInt();
 		
 		System.out.print("Enter Divisor: ");
 		int Divisor = sc.nextInt();
@@ -20,8 +21,8 @@ public class Quotient_Remainder_P6 {
 		sc.close();
 		
 		
-		int quotient= Divident / Divisor;
-		int remainder= Divident % Divisor;
+		int quotient= Dividend / Divisor;
+		int remainder= Dividend % Divisor;
 		
 		System.out.println("Quotient= " +quotient);
 		System.out.println("Remainder= " +remainder);

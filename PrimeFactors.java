@@ -1,10 +1,9 @@
 package com.bridgeLabz.CoreJava;
 import java.util.Scanner;
 public class PrimeFactors {
-	
 
-	    public static void main(String[] args) { 
-double n;
+	    public static void main(String[] args) {
+			double n;
 	    	Scanner sc = new Scanner(System.in);
 	        System.out.print("Choose your number: ");
 	        n = sc.nextInt();
@@ -27,7 +26,5 @@ double n;
 	        else       System.out.println();
 	    
 	}
-	
-	
 	
 }
